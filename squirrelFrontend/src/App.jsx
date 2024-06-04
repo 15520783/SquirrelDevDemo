@@ -87,17 +87,19 @@ const App = () => {
     <div className="App">
       <h1>Todo App</h1>
       <form id="todo-form" className="form" ref={formRef}>
-        <input
+        <textarea
           type="text"
           id="todo-title-input"
+          rows="2" cols="50"
           placeholder="Enter title todo"
           onChange={(e) => {
             setTitle(e?.target?.value);
           }}
         />
-        <input
+        <textarea
           type="text"
           id="todo-detail-input"
+          rows="4" cols="50"
           placeholder="Enter detail todo"
           onChange={(e) => {
             setDetail(e?.target?.value);

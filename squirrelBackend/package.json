@@ -1,5 +1,5 @@
 {
-  "name": "backend-todo-management",
+  "name": "squirrel-backend",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.mjs",
@@ -20,6 +20,7 @@
     "express": "^4.19.2",
     "express-async-errors": "^3.1.1",
     "mongodb": "^4.13.0",
+    "mongoose": "^8.4.1",
     "nodemon": "^3.1.2"
   }
 }
