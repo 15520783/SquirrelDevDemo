@@ -1,5 +1,5 @@
 {
-  "name": "backend-todo-management",
+  "name": "squirrel-backend",
   "version": "1.0.0",
   "description": "",
   "main": "src/app.mjs",
